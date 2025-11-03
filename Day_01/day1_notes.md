@@ -16,4 +16,4 @@ SELECT patient_id, name, age FROM patients;
 SELECT * FROM service_weekly LIMIT 10;
 
 # Challenge Query
-SELECT DISTINCT service FROM patients;
+SELECT DISTINCT service FROM services_weekly;
