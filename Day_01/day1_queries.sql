@@ -10,4 +10,4 @@ SELECT patient_id, name, age FROM patients;
 SELECT * FROM service_weekly LIMIT 10;
 
 -- 4. Daily Challenge: List all unique hospital services available
-SELECT DISTINCT service FROM patients;
+SELECT DISTINCT service FROM services_weekly;
