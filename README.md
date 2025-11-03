@@ -1,2 +1,19 @@
-# 21-days-SQL_Challenge
-My progress and solutions for the Indian Data Club 21 Days SQL Challenge (3rd Nov, 2025 - 27th Nov, 2025)
+# 21 Days SQL Challenge (By Indian Data Club)
+
+This repository documents my journey through the **21 Days SQL Challenge** organized by [Indian Data Club](https://indiandataclub.com/).  
+It covers daily SQL topics, practice queries, and learnings — from beginner to advanced level.
+
+---
+
+### 📅 Challenge Roadmap
+| Day | Topic | Folder |
+|-----|--------|--------|
+| 1 | Introduction to SQL & SELECT | [Day_01](./Day_01) |
+| 2 | WHERE, ORDER BY, LIMIT | Coming soon |
+| ... | ... | ... |
+
+---
+
+Follow my progress on:
+- **LinkedIn:** [Nithish Bachu](https://www.linkedin.com/in/nithish-bachu-21b697233)
+- **GitHub Repo:** [21-days-SQL_Challenge](https://github.com/yourusername/21-days-SQL_Challenge)
