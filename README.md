@@ -9,7 +9,8 @@ It covers daily SQL topics, practice queries, and learnings — from beginner to
 | Day | Topic | Folder |
 |-----|--------|--------|
 | 1 | Introduction to SQL & SELECT | [Day_01](./Day_01) |
-| 2 | WHERE, ORDER BY, LIMIT | Coming soon |
+| 2 | Filtering Data with WHERE Clause | [Day_02](./Day_02) |
+| 3 | ORDER BY, LIMIT, and DISTINCT | Coming soon |
 | ... | ... | ... |
 
 ---
