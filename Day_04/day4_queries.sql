@@ -1,4 +1,4 @@
--- Day 3: LIMIT and OFFSET
+-- Day 4: LIMIT and OFFSET
 
 -- 1. Display the first 5 patients from the patients table.
 SELECT *
