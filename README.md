@@ -13,6 +13,7 @@ It covers daily SQL topics, practice queries, and learnings — from beginner to
 | 3 | ORDER BY (ASC, DESC), Multiple column sort | [Day_03](./Day_03) |
 | 4 | Limit and Offset | [Day_04](./Day_04) |
 | 5 | Aggregate Functions (COUNT, SUM, AVG, MIN, MAX) | [Day_05](./Day_05) |
+| 6 | GROUP BY Clause | [Day_06](./Day_06) |
 | ... | ... | ... |
 
 ---
