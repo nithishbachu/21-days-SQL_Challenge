@@ -16,6 +16,7 @@ It covers daily SQL topics, practice queries, and learnings — from beginner to
 | 6 | GROUP BY Clause | [Day_06](./Day_06) |
 | 7 | HAVING Clause | [Day_07](./Day_07) |
 | 8 | Data Manipulation(String Functions) | [Day_08](./Day_08) |
+| 9 | Data Manipulation(Date Functions) | [Day_09](./Day_09) |
 | ... | ... | ... |
 
 ---
