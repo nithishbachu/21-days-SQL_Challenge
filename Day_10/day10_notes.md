@@ -1,7 +1,3 @@
-Got it! Here’s **Day 10 – CASE Statements** rewritten in the exact same **format and structure** as your Day 8 example:
-
----
-
 # 🗓 Day 10 – Mastering CASE Statements
 
 ### 📘 Topics Covered
