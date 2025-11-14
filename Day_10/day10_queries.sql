@@ -9,10 +9,10 @@ END AS satisfaction_score
 FROM patients;
 
 -- 2. Label staff roles as 'Medical' or 'Support' based on role type.
-SELECT staff_id, staff_name, service, 
-CASE WHEN role='doctor' THEN 'Medical' 
-ELSE 'Support' 
-END AS staff_roles
+SELECT staff_id, staff_name,
+CASE WHEN role = 'doctor' THEN 'Medical'
+ELSE 'Support'
+END AS role_type
 FROM staff;
 
 -- 3. Create age groups for patients (0-18, 19-40, 41-65, 65+).
