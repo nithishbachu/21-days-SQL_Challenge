@@ -17,6 +17,10 @@ It covers daily SQL topics, practice queries, and learnings — from beginner to
 | 7 | HAVING Clause | [Day_07](./Day_07) |
 | 8 | Data Manipulation(String Functions) | [Day_08](./Day_08) |
 | 9 | Data Manipulation(Date Functions) | [Day_09](./Day_09) |
+| 10 | Conditional Logic (CASE Statements) | [Day_10](./Day_10) |
+| 11 | Conditional Logic (DISTINCT and Handling Duplicates) | [Day_11](./Day_11) |
+| 12 | Conditional Logic (NULL Values and IS NULL/IS NOT NULL) | [Day_12](./Day_12) |
+| 13 | Combining Tables (INNER JOIN) | [Day_13](./Day_13) |
 | ... | ... | ... |
 
 ---
