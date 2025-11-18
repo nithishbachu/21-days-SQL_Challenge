@@ -1,8 +1,6 @@
 # Day 14 – LEFT JOIN and RIGHT JOIN
 
----
-
-📘 **Topics Covered**
+## 📘 Topics Covered
 - Using LEFT JOIN to include unmatched rows  
 - Understanding RIGHT JOIN (rarely used)  
 - Identifying non-matching records  
@@ -11,7 +9,7 @@
 
 ---
 
-💡 **Key Points**
+## 💡 Key Points
 - `LEFT JOIN` returns all rows from the left table, plus matching rows from the right table.  
 - If no match is found, the right table values appear as `NULL`.  
 - `RIGHT JOIN` is the opposite — all rows from the right table are kept.  
@@ -22,7 +20,7 @@
 
 ---
 
-💻 **Practice Queries**
+## 💻 Practice Queries
 
 ```sql
 -- 1. Show all staff members and their schedule information (including those with no schedule entries).
@@ -43,7 +41,7 @@ LEFT JOIN services_weekly sw ON p.service = sw.service;
 
 ---
 
-🎯 **Challenge**
+## 🎯 Daily Challenge
 
 **Create a staff utilisation report showing:**
 
@@ -58,7 +56,7 @@ LEFT JOIN services_weekly sw ON p.service = sw.service;
 
 ---
 
-💡 **Thought Process**
+## 💡 Thought Process
 
 * Since every staff member must be included, use `LEFT JOIN` from `staff` to `staff_schedule`.
 * Use `COALESCE()` to convert `NULLs` to `0` when staff have no schedule records.
@@ -67,7 +65,7 @@ LEFT JOIN services_weekly sw ON p.service = sw.service;
 
 ---
 
-🧠 **Challenge Query**
+## 🧠 Query
 
 ```sql
 -- Staff utilisation report (including staff with no schedule)
