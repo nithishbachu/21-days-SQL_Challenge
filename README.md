@@ -21,6 +21,7 @@ It covers daily SQL topics, practice queries, and learnings — from beginner to
 | 11 | Conditional Logic (DISTINCT and Handling Duplicates) | [Day_11](./Day_11) |
 | 12 | Conditional Logic (NULL Values and IS NULL/IS NOT NULL) | [Day_12](./Day_12) |
 | 13 | Combining Tables (INNER JOIN) | [Day_13](./Day_13) |
+| 14 | Combining Tables (LEFT JOIN AND RIGHT JOIN) | [Day_14](./Day_14) |
 | ... | ... | ... |
 
 ---
