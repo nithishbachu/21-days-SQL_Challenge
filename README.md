@@ -22,6 +22,9 @@ It covers daily SQL topics, practice queries, and learnings — from beginner to
 | 12 | Conditional Logic (NULL Values and IS NULL/IS NOT NULL) | [Day_12](./Day_12) |
 | 13 | Combining Tables (INNER JOIN) | [Day_13](./Day_13) |
 | 14 | Combining Tables (LEFT JOIN AND RIGHT JOIN) | [Day_14](./Day_14) |
+| 15 | Combining Tables (MULTIPLE JOINS) | [Day_15](./Day_15) |
+| 16 | Subqueries (WHERE clause) | [Day_16](./Day_16) |
+| 17 | Subqueries (SELECT and FROM clause) | [Day_17](./Day_17) |
 | ... | ... | ... |
 
 ---
