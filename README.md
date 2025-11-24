@@ -25,6 +25,7 @@ It covers daily SQL topics, practice queries, and learnings — from beginner to
 | 15 | Combining Tables (MULTIPLE JOINS) | [Day_15](./Day_15) |
 | 16 | Subqueries (WHERE clause) | [Day_16](./Day_16) |
 | 17 | Subqueries (SELECT and FROM clause) | [Day_17](./Day_17) |
+| 18 | UNION and UNION ALL | [Day_18](./Day_18) |
 | ... | ... | ... |
 
 ---
