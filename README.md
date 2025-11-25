@@ -56,4 +56,4 @@ This guide covers:
 
 Follow my progress on:
 - **LinkedIn:** [Nithish Bachu](https://www.linkedin.com/in/nithish-bachu-21b697233)
-- **GitHub Repo:** [21-days-SQL_Challenge](https://github.com/yourusername/21-days-SQL_Challenge)
+- **GitHub Repo:** [21-days-SQL_Challenge](https://github.com/nithishbachu/21-days-SQL_Challenge)
