@@ -46,6 +46,62 @@ ORDER BY week, service, patients_refused;
 
 ---
 
+
+### 💡 Tips & Tricks
+
+* **Default frame when ORDER BY exists:**
+  `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`
+
+* **Without ORDER BY → entire partition is used:**
+
+  ```sql
+  SUM(col) OVER (PARTITION BY group)
+  ```
+
+* **Use ROWS BETWEEN for moving windows:**
+
+  * 3-week moving average → `ROWS BETWEEN 2 PRECEDING AND CURRENT ROW`
+  * Centered 5-week window → `ROWS BETWEEN 2 PRECEDING AND 2 FOLLOWING`
+
+* **Calculate differences from group averages:**
+
+  ```sql
+  col - AVG(col) OVER (PARTITION BY group)
+  ```
+
+* **Percentage of total using window functions:**
+
+  ```sql
+  100.0 * col / SUM(col) OVER (PARTITION BY group)
+  ```
+
+* **Window functions can reference other window functions**
+  (but cannot be nested directly inside one another).
+
+* **Avoid using ORDER BY inside the window when not required**
+  — it affects the frame and changes the result.
+
+* **Use PARTITION BY wisely**
+  to compare values across groups while keeping original rows intact.
+
+---
+
+### 📚 Resources
+
+* 🎥 Window Functions Explained (Beginner → Advanced)
+  [https://youtu.be/8geIUgJj-d0?si=ecxyRh4IJF--1gQN](https://youtu.be/8geIUgJj-d0?si=ecxyRh4IJF--1gQN)
+
+* 🎥 Running Totals & Moving Averages in SQL
+  [https://youtu.be/GzRyOsQsugk?si=6vsyNJCUifFw6p4U](https://youtu.be/GzRyOsQsugk?si=6vsyNJCUifFw6p4U)
+
+* 🎥 SQL Window Functions Full Tutorial
+  [https://youtu.be/bWHNL5cS2TQ?si=QChddIuggjGb7wNa](https://youtu.be/bWHNL5cS2TQ?si=QChddIuggjGb7wNa)
+
+* 🎥 Deep Dive on OVER(), PARTITION BY, and Frames
+  [https://youtu.be/_vzLpWANcJg?si=oHtsVNG63WnjsApp](https://youtu.be/_vzLpWANcJg?si=oHtsVNG63WnjsApp)
+
+---
+
 ### 🎯 Challenge
 
 #### Question:
