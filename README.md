@@ -26,6 +26,9 @@ It covers daily SQL topics, practice queries, and learnings — from beginner to
 | 16 | Subqueries (WHERE clause) | [Day_16](./Day_16) |
 | 17 | Subqueries (SELECT and FROM clause) | [Day_17](./Day_17) |
 | 18 | UNION and UNION ALL | [Day_18](./Day_18) |
+| 19 | Window Functions - ROW_NUMBER, RANK, DENSE_RANK | [Day_19](./Day_19) |
+| 20 | Window Functions - Aggregate Window Functions | [Day_20](./Day_20) |
+| 21 | Common Table Expressions (CTEs) | [Day_21](./Day_21) |
 | ... | ... | ... |
 
 ---
