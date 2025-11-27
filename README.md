@@ -29,7 +29,6 @@ It covers daily SQL topics, practice queries, and learnings — from beginner to
 | 19 | Window Functions - ROW_NUMBER, RANK, DENSE_RANK | [Day_19](./Day_19) |
 | 20 | Window Functions - Aggregate Window Functions | [Day_20](./Day_20) |
 | 21 | Common Table Expressions (CTEs) | [Day_21](./Day_21) |
-| ... | ... | ... |
 
 ---
 
@@ -57,6 +56,6 @@ This guide covers:
 
 ---
 
-Follow my progress on:
+Follow me on:
 - **LinkedIn:** [Nithish Bachu](https://www.linkedin.com/in/nithish-bachu-21b697233)
-- **GitHub Repo:** [21-days-SQL_Challenge](https://github.com/yourusername/21-days-SQL_Challenge)
+- **GitHub:** [21-days-SQL_Challenge](https://github.com/nithishbachu)
