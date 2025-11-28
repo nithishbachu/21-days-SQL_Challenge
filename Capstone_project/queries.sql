@@ -1,3 +1,5 @@
+-- Capstone Project : step-wise investigation queries and final Case Solved query
+
 -- Check Evidence (Where & When the Crime Happened)
 SELECT * FROM evidence;
 -- This confirms that the murder happened in the CEO office around 21:00
